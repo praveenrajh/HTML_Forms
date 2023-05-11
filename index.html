@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+<body>
+    
+    <form id="form" >
+        
+        <input type="text" placeholder="First Name" id="firstname" required> <input type="text" id="lastname" placeholder="Last Name" required>
+        <input type="text" placeholder="Address" id="address" required><input placeholder="state" id="state" required> <input type="text" placeholder="pincode" id="pincode" required>
+        <input type="text" id="country" placeholder="country" required>
+        <label class="male" for="male">Male</label> <input value="male" type="radio" class="m" id="male" name="gender" required><label for="female" class="female">Female</label><input value="female" class="f" type="radio" id="female"  name="gender" required><label value="others" for="others" class="others">Others</label><input class="o" id="others" type="radio" name="gender" value="others" required>
+        <div class="select">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Biriyani" >
+        <label for="vehicle1"> Veg Biriyani</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Parotta">
+        <label for="vehicle2"> Parotta</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Noodles">
+        <label for="vehicle3"> Noodles</label><br></div>
+        <div class="select2">
+        <input type="checkbox" id="vehicle4" name="vehicle4" value="Friedrice">
+        <label for="vehicle4"> Friedrice</label><br>
+        <input type="checkbox" id="vehicle5" name="vehicle5" value="Salad">
+        <label for="vehicle5"> Salad</label><br>
+        <input type="checkbox" id="vehicle6" name="vehicle6" value="Burger">
+        <label for="vehicle6"> Burger</label><br>
+    </div>
+        <input class="button" type="submit" value="submit" />
+    </form>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Pincode</th>
+            <th>Gender</th>
+            <th>Favorite Food</th>
+        </tr>
+        
+    </table>
+   
+    <script src="script.js"></script>
+</body>
+</html>
